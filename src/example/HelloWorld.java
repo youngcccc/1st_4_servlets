@@ -11,7 +11,7 @@ import javax.xml.ws.Endpoint;
 public class HelloWorld {
   @WebMethod
   public String sayHelloWorldFrom(String from) {
-    String result = "Hi world, from " + from;
+    String result = "Hiiiii world, from " + from;
     System.out.println(result);
     return result;
   }
